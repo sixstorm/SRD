@@ -1,0 +1,15 @@
+{
+    "reddit_api": {
+        "clientid": "",
+        "clientsecret": "",
+        "useragent": ""
+    },
+    "local_settings": {
+        "tempfolder": "temp"
+    },
+    "subreddits": [
+        {
+            "sub": "cars"
+        }
+    ]
+}
