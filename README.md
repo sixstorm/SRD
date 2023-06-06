@@ -1,0 +1,2 @@
+# SRD
+Simple Reddit Digest
