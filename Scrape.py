@@ -2,7 +2,7 @@ import praw, os, os.path, random, wget, re, json
 from jinja2 import Environment, FileSystemLoader
 
 # Load Settings
-with open("settings.json", "r") as f:
+with open("settings/settings.json", "r") as f:
     config = json.load(f)
 
 subs = []
