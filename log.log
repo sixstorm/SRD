@@ -1,0 +1,2097 @@
+INFO:root:Container first run - Scraping!
+INFO:root:Writing to Index HTML page
+INFO:root:Container first run - Scraping!
+INFO:root:Finding and Grabbing all acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 644
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21879
+DEBUG:prawcore:Response: 200 (21879 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 7.03 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 16082
+DEBUG:prawcore:Response: 200 (16082 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 7.11 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18503
+DEBUG:prawcore:Response: 200 (18503 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 4.15 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 16269
+DEBUG:prawcore:Response: 200 (16269 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 8.11 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20049
+DEBUG:prawcore:Response: 200 (20049 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 3.05 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1657
+DEBUG:prawcore:Response: 200 (1657 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.81 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 16757
+DEBUG:prawcore:Response: 200 (16757 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 7.87 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6399
+DEBUG:prawcore:Response: 200 (6399 bytes)
+INFO:root:Writing to Index HTML page
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/praw/json HTTP/1.1" 200 35320
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 645
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 22945
+DEBUG:prawcore:Response: 200 (22945 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18873
+DEBUG:prawcore:Response: 200 (18873 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18540
+DEBUG:prawcore:Response: 200 (18540 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 17675
+DEBUG:prawcore:Response: 200 (17675 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20079
+DEBUG:prawcore:Response: 200 (20079 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1654
+DEBUG:prawcore:Response: 200 (1654 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 10.00 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 16871
+DEBUG:prawcore:Response: 200 (16871 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6384
+DEBUG:prawcore:Response: 200 (6384 bytes)
+INFO:root:Found 123 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing V82l3HM.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3OyeRXX.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 66c0pp2uak4b1.png
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing ceT5vJI.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67XBoyW.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5YmBAbQ.jpg
+INFO:root:Removing Uc3A7BH.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Container first run - Scraping!
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 646
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 22945
+DEBUG:prawcore:Response: 200 (22945 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18878
+DEBUG:prawcore:Response: 200 (18878 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18504
+DEBUG:prawcore:Response: 200 (18504 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 17683
+DEBUG:prawcore:Response: 200 (17683 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20078
+DEBUG:prawcore:Response: 200 (20078 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1655
+DEBUG:prawcore:Response: 200 (1655 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 10.00 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 16871
+DEBUG:prawcore:Response: 200 (16871 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6384
+DEBUG:prawcore:Response: 200 (6384 bytes)
+INFO:root:Found 0 local files to remove
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 643
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 23002
+DEBUG:prawcore:Response: 200 (23002 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18856
+DEBUG:prawcore:Response: 200 (18856 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18506
+DEBUG:prawcore:Response: 200 (18506 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 17685
+DEBUG:prawcore:Response: 200 (17685 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20013
+DEBUG:prawcore:Response: 200 (20013 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1655
+DEBUG:prawcore:Response: 200 (1655 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 10.00 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 16861
+DEBUG:prawcore:Response: 200 (16861 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6400
+DEBUG:prawcore:Response: 200 (6400 bytes)
+INFO:root:Found 127 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing V82l3HM.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3OyeRXX.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 66c0pp2uak4b1.png
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing ceT5vJI.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67XBoyW.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5YmBAbQ.jpg
+INFO:root:Removing Uc3A7BH.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 645
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 22904
+DEBUG:prawcore:Response: 200 (22904 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 645
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 22943
+DEBUG:prawcore:Response: 200 (22943 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18903
+DEBUG:prawcore:Response: 200 (18903 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18507
+DEBUG:prawcore:Response: 200 (18507 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 17660
+DEBUG:prawcore:Response: 200 (17660 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20047
+DEBUG:prawcore:Response: 200 (20047 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1655
+DEBUG:prawcore:Response: 200 (1655 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 5.50 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 16878
+DEBUG:prawcore:Response: 200 (16878 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 2.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6390
+DEBUG:prawcore:Response: 200 (6390 bytes)
+INFO:root:Found 127 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing V82l3HM.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3OyeRXX.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 66c0pp2uak4b1.png
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing ceT5vJI.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67XBoyW.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5YmBAbQ.jpg
+INFO:root:Removing Uc3A7BH.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 646
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 22936
+DEBUG:prawcore:Response: 200 (22936 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18876
+DEBUG:prawcore:Response: 200 (18876 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18524
+DEBUG:prawcore:Response: 200 (18524 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 17675
+DEBUG:prawcore:Response: 200 (17675 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20043
+DEBUG:prawcore:Response: 200 (20043 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1655
+DEBUG:prawcore:Response: 200 (1655 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 16872
+DEBUG:prawcore:Response: 200 (16872 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6392
+DEBUG:prawcore:Response: 200 (6392 bytes)
+INFO:root:Found 127 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing V82l3HM.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3OyeRXX.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 66c0pp2uak4b1.png
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing ceT5vJI.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67XBoyW.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5YmBAbQ.jpg
+INFO:root:Removing Uc3A7BH.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 643
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21344
+DEBUG:prawcore:Response: 200 (21344 bytes)
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 646
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21382
+DEBUG:prawcore:Response: 200 (21382 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18906
+DEBUG:prawcore:Response: 200 (18906 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 19050
+DEBUG:prawcore:Response: 200 (19050 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 17670
+DEBUG:prawcore:Response: 200 (17670 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20950
+DEBUG:prawcore:Response: 200 (20950 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1654
+DEBUG:prawcore:Response: 200 (1654 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 10.00 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18222
+DEBUG:prawcore:Response: 200 (18222 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6406
+DEBUG:prawcore:Response: 200 (6406 bytes)
+INFO:root:Found 127 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing v82l3hm.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3oyerxx.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 66c0pp2uak4b1.png
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing cet5vji.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67xboyw.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5ymbabq.jpg
+INFO:root:Removing uc3a7bh.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 642
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21375
+DEBUG:prawcore:Response: 200 (21375 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18923
+DEBUG:prawcore:Response: 200 (18923 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 19041
+DEBUG:prawcore:Response: 200 (19041 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18421
+DEBUG:prawcore:Response: 200 (18421 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20957
+DEBUG:prawcore:Response: 200 (20957 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1653
+DEBUG:prawcore:Response: 200 (1653 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18207
+DEBUG:prawcore:Response: 200 (18207 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6394
+DEBUG:prawcore:Response: 200 (6394 bytes)
+INFO:root:Found 127 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing v82l3hm.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3oyerxx.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 66c0pp2uak4b1.png
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing cet5vji.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67xboyw.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5ymbabq.jpg
+INFO:root:Removing uc3a7bh.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 643
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21342
+DEBUG:prawcore:Response: 200 (21342 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18946
+DEBUG:prawcore:Response: 200 (18946 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 19030
+DEBUG:prawcore:Response: 200 (19030 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18427
+DEBUG:prawcore:Response: 200 (18427 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20944
+DEBUG:prawcore:Response: 200 (20944 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1655
+DEBUG:prawcore:Response: 200 (1655 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 10.00 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18215
+DEBUG:prawcore:Response: 200 (18215 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6401
+DEBUG:prawcore:Response: 200 (6401 bytes)
+INFO:root:Found 127 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing v82l3hm.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3oyerxx.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 66c0pp2uak4b1.png
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing cet5vji.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67xboyw.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5ymbabq.jpg
+INFO:root:Removing uc3a7bh.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 646
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21390
+DEBUG:prawcore:Response: 200 (21390 bytes)
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 645
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21355
+DEBUG:prawcore:Response: 200 (21355 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18904
+DEBUG:prawcore:Response: 200 (18904 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 19038
+DEBUG:prawcore:Response: 200 (19038 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18411
+DEBUG:prawcore:Response: 200 (18411 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21010
+DEBUG:prawcore:Response: 200 (21010 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1656
+DEBUG:prawcore:Response: 200 (1656 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18210
+DEBUG:prawcore:Response: 200 (18210 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6407
+DEBUG:prawcore:Response: 200 (6407 bytes)
+INFO:root:Found 0 local files to remove
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 643
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21328
+DEBUG:prawcore:Response: 200 (21328 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18913
+DEBUG:prawcore:Response: 200 (18913 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 19011
+DEBUG:prawcore:Response: 200 (19011 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18413
+DEBUG:prawcore:Response: 200 (18413 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20978
+DEBUG:prawcore:Response: 200 (20978 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1657
+DEBUG:prawcore:Response: 200 (1657 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 10.00 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18224
+DEBUG:prawcore:Response: 200 (18224 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6382
+DEBUG:prawcore:Response: 200 (6382 bytes)
+INFO:root:Found 0 local files to remove
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 646
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21354
+DEBUG:prawcore:Response: 200 (21354 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/eyebleach/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/eyebleach/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18913
+DEBUG:prawcore:Response: 200 (18913 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/earthporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/earthporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 19034
+DEBUG:prawcore:Response: 200 (19034 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/whatswrongwithyourdog/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/whatswrongwithyourdog/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18354
+DEBUG:prawcore:Response: 200 (18354 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/carporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/carporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 20975
+DEBUG:prawcore:Response: 200 (20975 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cabinporn/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cabinporn/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 1652
+DEBUG:prawcore:Response: 200 (1652 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/cozyplaces/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 10.00 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/cozyplaces/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 18220
+DEBUG:prawcore:Response: 200 (18220 bytes)
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/macsetups/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:prawcore:Sleeping: 9.99 seconds prior to call
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/macsetups/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 6405
+DEBUG:prawcore:Response: 200 (6405 bytes)
+INFO:root:Found 126 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing v82l3hm.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3oyerxx.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing cet5vji.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67xboyw.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5ymbabq.jpg
+INFO:root:Removing uc3a7bh.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 645
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21376
+DEBUG:prawcore:Response: 200 (21376 bytes)
+INFO:root:Found 126 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing v82l3hm.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3oyerxx.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing cet5vji.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67xboyw.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5ymbabq.jpg
+INFO:root:Removing uc3a7bh.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 644
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 21333
+DEBUG:prawcore:Response: 200 (21333 bytes)
+INFO:root:Found 126 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing br8cg0q8wl4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing 8grsh0x5lj4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing v82l3hm.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing titf7a60bi4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3oyerxx.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing x7duko0dxg4b1.jpg
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing kytaouog5j4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing 83y8h12b2j4b1.jpg
+INFO:root:Removing 8w6s7t52fk4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing cet5vji.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing zmy8pm6sjg4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing 29uy5u6ogl4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing kcrh1se17h4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing juw3nfol5k4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67xboyw.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing bfjuhi5swg4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5ymbabq.jpg
+INFO:root:Removing uc3a7bh.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Downloading new media
+INFO:root:Writing to Index HTML page
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/praw/json HTTP/1.1" 200 35320
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 646
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 24199
+DEBUG:prawcore:Response: 200 (24199 bytes)
+INFO:root:Found 114 local files to remove
+INFO:root:Removing 6b7at3zhcm4b1.jpg
+INFO:root:Removing nr7mxd6hrl4b1.jpg
+INFO:root:Removing 2azbgy32xl4b1.gif
+INFO:root:Removing looendlu5j4b1.jpg
+INFO:root:Removing malamias0l4b1.jpg
+INFO:root:Removing 6w75u9uadm4b1.jpg
+INFO:root:Removing 96fdyiru7h4b1.jpg
+INFO:root:Removing bznd5x1x1i4b1.jpg
+INFO:root:Removing vrxzrpccpf4b1.jpg
+INFO:root:Removing xd1adb19qi4b1.jpg
+INFO:root:Removing mvhei8pzol4b1.png
+INFO:root:Removing V82l3HM.jpg
+INFO:root:Removing ly2iwzbajh4b1.jpg
+INFO:root:Removing k4br3dxekh4b1.jpg
+INFO:root:Removing bq0hajeefh4b1.jpg
+INFO:root:Removing myazjyhvlm4b1.jpg
+INFO:root:Removing qk6nyxkndi4b1.png
+INFO:root:Removing 2rre1h1umm4b1.jpg
+INFO:root:Removing jyikmaxgwl4b1.jpg
+INFO:root:Removing au7ns0vv4m4b1.jpg
+INFO:root:Removing p6fo7nuseh4b1.jpg
+INFO:root:Removing rjuq5xcd8k4b1.jpg
+INFO:root:Removing 752xn9coqf4b1.jpg
+INFO:root:Removing tza1calacm4b1.jpg
+INFO:root:Removing agnsykjubg4b1.jpg
+INFO:root:Removing ukfg0kxc0h4b1.png
+INFO:root:Removing nx4sffigdm4b1.png
+INFO:root:Removing vk85hv6eni4b1.jpg
+INFO:root:Removing 0xl1ii9kti4b1.jpg
+INFO:root:Removing xj79vtqgbl4b1.jpg
+INFO:root:Removing afxcokbf2i4b1.png
+INFO:root:Removing fccvpj1zkl4b1.jpg
+INFO:root:Removing ofzqckahkl4b1.jpg
+INFO:root:Removing rtb6j5af1g4b1.jpg
+INFO:root:Removing l9w52gxe4j4b1.jpg
+INFO:root:Removing qiqyz9a29g4b1.jpg
+INFO:root:Removing rsne3vnu2l4b1.jpg
+INFO:root:Removing rmm2noazol4b1.png
+INFO:root:Removing b9h6hhw9ak4b1.jpg
+INFO:root:Removing oaqckvaxvh4b1.jpg
+INFO:root:Removing 5dupmls8pj4b1.jpg
+INFO:root:Removing 3OyeRXX.jpg
+INFO:root:Removing nrjc3nb1mm4b1.jpg
+INFO:root:Removing 7e8rvi2gkm4b1.jpg
+INFO:root:Removing z0e1indh1i4b1.jpg
+INFO:root:Removing rcsa4z12jl4b1.jpg
+INFO:root:Removing dlmm8x994h4b1.jpg
+INFO:root:Removing qjmqchg0ag4b1.jpg
+INFO:root:Removing ju1lrmyi8h4b1.jpg
+INFO:root:Removing j581wmgbjj4b1.jpg
+INFO:root:Removing 6mvwfmqyof4b1.jpg
+INFO:root:Removing horzudfmdm4b1.png
+INFO:root:Removing dppmlb82mg4b1.jpg
+INFO:root:Removing 8c0f968a7m4b1.jpg
+INFO:root:Removing 9pb8nka9qg4b1.jpg
+INFO:root:Removing 9volwzwtvl4b1.jpg
+INFO:root:Removing oipnbbnujj4b1.jpg
+INFO:root:Removing 2rnk1k1s9m4b1.jpg
+INFO:root:Removing jw2j4gd71g4b1.jpg
+INFO:root:Removing n72cw9ozpk4b1.jpg
+INFO:root:Removing jwb9w76zdk4b1.jpg
+INFO:root:Removing 8rrut62kji4b1.jpg
+INFO:root:Removing i0exe1a00l4b1.jpg
+INFO:root:Removing lskg7avs0j4b1.jpg
+INFO:root:Removing cyptsi196l4b1.jpg
+INFO:root:Removing bvnwgkessh4b1.jpg
+INFO:root:Removing 8ws1elhwuk4b1.jpg
+INFO:root:Removing ceT5vJI.jpg
+INFO:root:Removing ewz0ff1sck4b1.jpg
+INFO:root:Removing q03uh902xl4b1.jpg
+INFO:root:Removing nzrxmmooqf4b1.png
+INFO:root:Removing gi72uqu7oi4b1.png
+INFO:root:Removing qlt40diepi4b1.jpg
+INFO:root:Removing w6diibohth4b1.jpg
+INFO:root:Removing zuswll7g7l4b1.jpg
+INFO:root:Removing w9lt4e8tll4b1.jpg
+INFO:root:Removing m9ll7qkecg4b1.jpg
+INFO:root:Removing x4dgn3wf7h4b1.jpg
+INFO:root:Removing m4fa0ju4ej4b1.jpg
+INFO:root:Removing 5vaeadykfg4b1.jpg
+INFO:root:Removing rjo9gdhhcg4b1.jpg
+INFO:root:Removing 4qizr5eedh4b1.jpg
+INFO:root:Removing ak746quonf4b1.jpg
+INFO:root:Removing mkdao13lzj4b1.jpg
+INFO:root:Removing iiqqkrejkm4b1.jpg
+INFO:root:Removing g06obf0umh4b1.jpg
+INFO:root:Removing hojz07aych4b1.jpg
+INFO:root:Removing p89d0zfryh4b1.jpg
+INFO:root:Removing ghrbmyabsi4b1.jpg
+INFO:root:Removing 67XBoyW.jpg
+INFO:root:Removing ja0opsqkmh4b1.jpg
+INFO:root:Removing 8rcbw5ksng4b1.jpg
+INFO:root:Removing sl6jjw4cil4b1.jpg
+INFO:root:Removing ib86ptblmg4b1.png
+INFO:root:Removing xeq8sulauf4b1.jpg
+INFO:root:Removing b57ue3rejm4b1.jpg
+INFO:root:Removing 4bq6spxn3m4b1.jpg
+INFO:root:Removing lg8nzj148g4b1.jpg
+INFO:root:Removing gof7lrwk6l4b1.gif
+INFO:root:Removing 09ipfz3nzl4b1.jpg
+INFO:root:Removing 34rwd679jl4b1.jpg
+INFO:root:Removing fnn3x319dh4b1.jpg
+INFO:root:Removing 15j23ba3pj4b1.jpg
+INFO:root:Removing k8osxl00bg4b1.png
+INFO:root:Removing vyxqwhk29m4b1.jpg
+INFO:root:Removing hj3s5r0afg4b1.jpg
+INFO:root:Removing u76c7p747m4b1.jpg
+INFO:root:Removing p8yh5ws0nm4b1.jpg
+INFO:root:Removing 0fjpc7stgi4b1.jpg
+INFO:root:Removing 5YmBAbQ.jpg
+INFO:root:Removing Uc3A7BH.jpg
+INFO:root:Removing 4a6ckyzqnl4b1.png
+INFO:root:Removing x020lkyq4h4b1.jpg
+INFO:root:Removing gwerhuzreg4b1.jpg
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 646
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 24237
+DEBUG:prawcore:Response: 200 (24237 bytes)
+INFO:root:Found 0 local files to remove
+INFO:root:Writing to Index HTML page
+INFO:root:Finding acceptable media from selected SubReddits
+DEBUG:prawcore:Fetching: GET https://oauth.reddit.com/r/shiba/top
+DEBUG:prawcore:Data: None
+DEBUG:prawcore:Params: {'t': 'day', 'limit': 100, 'raw_json': 1}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.reddit.com:443
+DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "POST /api/v1/access_token HTTP/1.1" 200 645
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.reddit.com:443
+DEBUG:urllib3.connectionpool:https://oauth.reddit.com:443 "GET /r/shiba/top?t=day&limit=100&raw_json=1 HTTP/1.1" 200 24210
+DEBUG:prawcore:Response: 200 (24210 bytes)
+INFO:root:Found 0 local files to remove
+INFO:root:Writing to Index HTML page

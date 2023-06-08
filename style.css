@@ -37,3 +37,7 @@ body {
         flex-direction: row
     }
 } */
+
+.footer {
+    text-align: right;
+}

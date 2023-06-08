@@ -1,0 +1,11 @@
+{
+    "reddit_api": {
+        "clientid": "CID",
+        "clientsecret": "CSECRET",
+        "useragent": "USERNAME"
+    },
+    "local_settings": {
+        "tempfolder": "/bin/SRD/temp"
+    },
+    "subreddits": ["gaming", "eyebleach", "earthporn"]
+}
